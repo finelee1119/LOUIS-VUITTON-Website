@@ -1,0 +1,84 @@
+nav {
+    padding: 2rem;
+    position:fixed;
+  }
+  
+  .first-img {
+    width: 100vw;
+  }
+  
+  .btn-outline-success {
+    color: chocolate;
+    border-color: chocolate;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: chocolate;
+    color: white;
+    border-color: chocolate;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+  }
+  
+  
+  
+  footer {
+    background: #19110b;
+    font-size: 14px;
+  }
+  
+  .first-line {  /* 푸터의 첫번째 줄 */
+    color: white;
+    border-bottom: 1px solid #392d23;
+  }
+  
+  .second-line a {  /* 푸터의 두번째 줄 */
+    color: white;
+    text-decoration: none;
+  }
+  
+  .flag {
+    color: white;
+  }
+  
+  .mobile-footer {
+    border-top: 1px solid #392d23;
+    color: white;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 300;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+  
+    display: none;
+  }
+  
+  .col {
+    padding-bottom: 1rem;
+  }
+  
+  .flag-img {
+    margin: 0 0.5rem;
+  }
+  
+  @media screen and (max-width: 48rem) {  /* 작은 화면(0~48rem)일 때 적용할 스타일 */
+    .second-line {
+      padding: 0 2rem;
+    }
+  
+    .flag {
+      display: none;
+    }
+  
+    .first-line {
+      text-align: center;
+    }
+  
+    .mobile-footer { /* 모바일 화면 크기일 때 다시 보이도록 설정 */
+      display: block;
+    }
+  }
